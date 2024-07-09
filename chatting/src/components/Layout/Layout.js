@@ -18,17 +18,21 @@ const Layout = () => {
       console.log("navRef is null");
     }
   };
+
+  const handleLinkClick = () => {
+    showNavbar();
+  };
   return (
     <>
       <header>
         <h5>Pratik Patil</h5>
         <nav ref={navRef}>
-          <li><Link onClick={showNavbar} to="/about">About</Link></li>
-          <li><Link onClick={showNavbar} to="/education">Education</Link></li>
-          <li><Link onClick={showNavbar} to="/tech">Tech Stack</Link></li>
-          <li><Link onClick={showNavbar} to="/experience">Experience</Link></li>
-          <li><Link onClick={showNavbar} to="/project">Project</Link></li>
-          <li><Link onClick={showNavbar} to="/contact">Contact</Link></li>
+          <li><Link onClick={handleLinkClick} to="/about">About</Link></li>
+          <li><Link onClick={handleLinkClick} to="/education">Education</Link></li>
+          <li><Link onClick={handleLinkClick} to="/tech">Tech Stack</Link></li>
+          <li><Link onClick={handleLinkClick} to="/experience">Experience</Link></li>
+          <li><Link onClick={handleLinkClick} to="/project">Project</Link></li>
+          <li><Link onClick={handleLinkClick} to="/contact">Contact</Link></li>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
           </button>

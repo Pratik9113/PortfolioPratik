@@ -1,0 +1,58 @@
+.education{
+  
+  height: 100vh;
+  position: absolute;
+}
+.education hr{
+    color:rgb(40, 40, 233);
+    width :200px;
+    margin : 10px auto;
+}
+.education h2{
+    font-weight: bold;
+    color:#4caf50;
+}
+.content-space{
+  height: 100px;
+}
+
+#dark .education{
+    background-color:black;
+}
+#dark .vertical-timeline-element--work {
+    background-color: black;
+    color: white;
+  }
+  
+  #dark .vertical-timeline-element--work h3,
+  #dark .vertical-timeline-element--work h4,
+  #dark .vertical-timeline-element--work p {
+    color: white;
+  }
+  
+  #dark .vertical-timeline-element--education {
+    background-color: black;
+    color: white;
+  }
+  
+  #dark .vertical-timeline-element--education h3,
+  #dark .vertical-timeline-element--education h4,
+  #dark .vertical-timeline-element--education p {
+    color: white;
+  }
+
+  #dark .vertical-timeline-element--work .vertical-timeline-element-content,
+  #dark .vertical-timeline-element--education .vertical-timeline-element-content {
+    background-color: black;
+    color: white;
+  }
+  
+  #dark .vertical-timeline-element--work .vertical-timeline-element-content h3,
+  #dark .vertical-timeline-element--work .vertical-timeline-element-content h4,
+  #dark .vertical-timeline-element--work .vertical-timeline-element-content p,
+  #dark .vertical-timeline-element--education .vertical-timeline-element-content h3,
+  #dark .vertical-timeline-element--education .vertical-timeline-element-content h4,
+  #dark .vertical-timeline-element--education .vertical-timeline-element-content p {
+    color: white;
+  }
+  
